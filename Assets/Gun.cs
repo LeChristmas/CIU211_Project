@@ -16,9 +16,13 @@ public class Gun : MonoBehaviour
     public int ammunition;
     private bool reloading;
 
+    private bool firing;
+
     private Ray ray;
 
     private RaycastHit hit;
+
+    public Animator fire_animation;
 
     // Use this for initialization
     void Start ()
@@ -54,9 +58,10 @@ public class Gun : MonoBehaviour
             }
         }
 
-		if (Input.GetButtonDown("Fire1") && isactive && !reloading && ammunition > 0)
+		if (Input.GetButtonDown("Fire1") && isactive && !firing && !reloading && ammunition > 0)
         {
-            Debug.Log("Bang");
+            firing = true;
+            StartCoroutine("Fire_Delay");
             Fire();
         }
 
@@ -76,18 +81,42 @@ public class Gun : MonoBehaviour
         {
             reload_text.SetActive(false);
         }
+
+        if(Input.GetKeyDown(KeyCode.P))
+        {
+            ammunition = 1;
+        }
 	}
 
     IEnumerator Reload ()
     {
-        yield return new WaitForSeconds(1.0f);
+        yield return new WaitForSeconds(2.5f);
+        if(ammunition == 0)
+        {
+            fire_animation.SetBool("Empty", false);
+        }
+        yield return new WaitForSeconds(0.5f);
         reloading = false;
         ammunition = 10;
+    }
+
+    IEnumerator Fire_Delay ()
+    {
+        yield return new WaitForSeconds(1.0f);
+        firing = false;
     }
 
     void Fire ()
     {
         ammunition--;
+        if(ammunition == 0)
+        {
+            fire_animation.SetBool("Empty", true);
+        }
+        else
+        {
+            fire_animation.SetTrigger("Fire");
+        }
         ray = Camera.main.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
         if (Physics.Raycast(ray, out hit, 100))
         {

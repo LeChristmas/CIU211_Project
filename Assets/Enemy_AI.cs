@@ -14,10 +14,14 @@ public class Enemy_AI : MonoBehaviour
 
     private float distance;
 
+    public GameObject highlight;
+
+    private bool damaged;
+
 	// Use this for initialization
 	void Start ()
     {
-		
+
 	}
 
     // Update is called once per frame
@@ -39,7 +43,19 @@ public class Enemy_AI : MonoBehaviour
 
     public void Hit (int damage)
     {
-        Debug.Log("ouch");
-        health -= damage;
+        if(!damaged)
+        {
+            damaged = true;
+            highlight.SetActive(true);
+            StartCoroutine("No_Damage");
+            health -= damage;
+        }
+    }
+
+    IEnumerator No_Damage ()
+    {
+        yield return new WaitForSeconds(0.5f);
+        damaged = false;
+        highlight.SetActive(false);
     }
 }
