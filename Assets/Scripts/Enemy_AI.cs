@@ -6,17 +6,25 @@ public class Enemy_AI : MonoBehaviour
 {
     public GameObject player;
 
+    public Transform linecast_target;
+
     public float speed;
 
     public float detection_distance;
 
     public int health = 100;
 
-    private float distance;
+    public float attack_damage = 10.0f;
 
     public GameObject highlight;
 
+    private float distance;
+
     private bool damaged;
+
+    private RaycastHit hit;
+
+    private bool rotating_lock;
 
 	// Use this for initialization
 	void Start ()
@@ -27,12 +35,28 @@ public class Enemy_AI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        transform.position = new Vector3(transform.position.x, 1.0f, transform.position.z);
         distance = Vector3.Distance(transform.position, player.transform.position);
 
         if (distance < detection_distance)
         {
-            float step = speed * Time.deltaTime;
-            transform.position = Vector3.MoveTowards(transform.position, player.transform.position, step);
+            transform.LookAt(player.transform);
+
+            if (Physics.Linecast(transform.position, linecast_target.position, out hit))
+            {
+                Debug.Log("Blocked by: " + hit.transform.gameObject);
+            }
+            else
+            {
+                float step = speed * Time.deltaTime;
+                transform.position = Vector3.MoveTowards(transform.position, player.transform.position, step);
+            }
+        }
+
+        if (distance < 1.3f)
+        {
+            Debug.Log("Attacking");
+            player.GetComponent<Player_Health>().Attacked(attack_damage);
         }
 
         if (health <= 0)
