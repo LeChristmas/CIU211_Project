@@ -8,6 +8,8 @@ public class Enemy_AI : MonoBehaviour
 
     public Transform linecast_target;
 
+    public Animator attack_arm;
+
     public float speed;
 
     public float detection_distance;
@@ -26,6 +28,8 @@ public class Enemy_AI : MonoBehaviour
 
     private bool rotating_lock;
 
+    private bool death;
+
 	// Use this for initialization
 	void Start ()
     {
@@ -38,7 +42,7 @@ public class Enemy_AI : MonoBehaviour
         transform.position = new Vector3(transform.position.x, 1.0f, transform.position.z);
         distance = Vector3.Distance(transform.position, player.transform.position);
 
-        if (distance < detection_distance)
+        if (distance < detection_distance && distance > 1.29f)
         {
             transform.LookAt(player.transform);
 
@@ -53,15 +57,29 @@ public class Enemy_AI : MonoBehaviour
             }
         }
 
+        if(damaged)
+        {
+            transform.LookAt(player.transform);
+            float step = speed * Time.deltaTime;
+            transform.position = Vector3.MoveTowards(transform.position, player.transform.position, step);
+        }
+
         if (distance < 1.3f)
         {
             Debug.Log("Attacking");
+            attack_arm.SetTrigger("Attack"); 
             player.GetComponent<Player_Health>().Attacked(attack_damage);
         }
 
         if (health <= 0)
         {
-            Destroy(gameObject);
+            if(!death)
+            {
+                death = true;
+                player.GetComponent<Collectibles>().enemies_killed++;
+            }
+            gameObject.transform.localScale += new Vector3(0.2f, 0.2f, 0.2f);
+            StartCoroutine(Death_Delay());
         }
 	}
 
@@ -81,5 +99,11 @@ public class Enemy_AI : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         damaged = false;
         highlight.SetActive(false);
+    }
+
+    IEnumerator Death_Delay ()
+    {
+        yield return new WaitForSeconds(0.2f);
+        Destroy(gameObject);
     }
 }

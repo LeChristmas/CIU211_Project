@@ -16,6 +16,10 @@ public class Gun : MonoBehaviour
     public int ammunition;
     private bool reloading;
 
+    public AudioSource audiosource;
+    public AudioClip gunshot;
+    public AudioClip reload;
+
     private bool firing;
 
     private Ray ray;
@@ -65,9 +69,10 @@ public class Gun : MonoBehaviour
             Fire();
         }
 
-        if(Input.GetKeyDown(KeyCode.R) && isactive && !reloading)
+        if(Input.GetKeyDown(KeyCode.R) && isactive && !reloading && ammunition != 10)
         {
             reloading = true;
+            audiosource.PlayOneShot(reload);
             StartCoroutine("Reload");
         }
 
@@ -99,6 +104,7 @@ public class Gun : MonoBehaviour
     void Fire ()
     {
         ammunition--;
+        audiosource.PlayOneShot(gunshot);
         if(ammunition == 0)
         {
             fire_animation.SetBool("Empty", true);

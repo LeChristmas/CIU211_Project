@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Win_State : MonoBehaviour
 {
@@ -11,6 +12,11 @@ public class Win_State : MonoBehaviour
 
     private bool win;
 
+    private GameObject player;
+
+    private Collectibles collectible;
+
+    private int enemies_eliminated;
     // Update is called once per frame
     void Update()
     {
@@ -24,6 +30,13 @@ public class Win_State : MonoBehaviour
     {
         if (col.transform.gameObject.tag == "Player")
         {
+            player = col.transform.gameObject;
+            collectible = player.GetComponent<Collectibles>();
+            win_UI[0].GetComponent<Text>().text = ("Enemies Eliminated: " + collectible.enemies_killed);
+            win_UI[1].GetComponent<Image>().color = collectible.collectible_icons[0].color;
+            win_UI[2].GetComponent<Image>().color = collectible.collectible_icons[1].color;
+            win_UI[3].GetComponent<Image>().color = collectible.collectible_icons[2].color;
+            win_UI[4].GetComponent<Image>().color = collectible.collectible_icons[3].color;
             Win();
         }
     }
