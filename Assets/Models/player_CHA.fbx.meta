@@ -1,0 +1,226 @@
+fileFormatVersion: 2
+guid: ab6be60378103354b96e771fd1f2b2bf
+timeCreated: 1524813279
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: CHA_body_MESH
+    100002: CHA_head_MESH
+    100004: CHA_HIK_Ctrl_ChestEndEffector
+    100006: CHA_HIK_Ctrl_ChestOriginEffector
+    100008: CHA_HIK_Ctrl_Head
+    100010: CHA_HIK_Ctrl_HeadEffector
+    100012: CHA_HIK_Ctrl_Hips
+    100014: CHA_HIK_Ctrl_HipsEffector
+    100016: CHA_HIK_Ctrl_LeftAnkleEffector
+    100018: CHA_HIK_Ctrl_LeftArm
+    100020: CHA_HIK_Ctrl_LeftElbowEffector
+    100022: CHA_HIK_Ctrl_LeftFoot
+    100024: CHA_HIK_Ctrl_LeftForeArm
+    100026: CHA_HIK_Ctrl_LeftHand
+    100028: CHA_HIK_Ctrl_LeftHipEffector
+    100030: CHA_HIK_Ctrl_LeftKneeEffector
+    100032: CHA_HIK_Ctrl_LeftLeg
+    100034: CHA_HIK_Ctrl_LeftShoulder
+    100036: CHA_HIK_Ctrl_LeftShoulderEffector
+    100038: CHA_HIK_Ctrl_LeftUpLeg
+    100040: CHA_HIK_Ctrl_LeftWristEffector
+    100042: CHA_HIK_Ctrl_Reference
+    100044: CHA_HIK_Ctrl_RightAnkleEffector
+    100046: CHA_HIK_Ctrl_RightArm
+    100048: CHA_HIK_Ctrl_RightElbowEffector
+    100050: CHA_HIK_Ctrl_RightFoot
+    100052: CHA_HIK_Ctrl_RightForeArm
+    100054: CHA_HIK_Ctrl_RightHand
+    100056: CHA_HIK_Ctrl_RightHipEffector
+    100058: CHA_HIK_Ctrl_RightKneeEffector
+    100060: CHA_HIK_Ctrl_RightLeg
+    100062: CHA_HIK_Ctrl_RightShoulder
+    100064: CHA_HIK_Ctrl_RightShoulderEffector
+    100066: CHA_HIK_Ctrl_RightUpLeg
+    100068: CHA_HIK_Ctrl_RightWristEffector
+    100070: CHA_HIK_Ctrl_Spine
+    100072: CHA_HIK_Ctrl_Spine1
+    100074: CHA_HIK_Ctrl_Spine2
+    100076: CHA_HIK_Head
+    100078: CHA_HIK_Hips
+    100080: CHA_HIK_LeftArm
+    100082: CHA_HIK_LeftFoot
+    100084: CHA_HIK_LeftForeArm
+    100086: CHA_HIK_LeftHand
+    100088: CHA_HIK_LeftLeg
+    100090: CHA_HIK_LeftShoulder
+    100092: CHA_HIK_LeftUpLeg
+    100094: CHA_HIK_Reference
+    100096: CHA_HIK_RightArm
+    100098: CHA_HIK_RightFoot
+    100100: CHA_HIK_RightForeArm
+    100102: CHA_HIK_RightHand
+    100104: CHA_HIK_RightLeg
+    100106: CHA_HIK_RightShoulder
+    100108: CHA_HIK_RightUpLeg
+    100110: CHA_HIK_Spine
+    100112: CHA_HIK_Spine1
+    100114: CHA_HIK_Spine2
+    100116: CHA_MESH_GRP
+    100118: //RootNode
+    100120: VR_MESH
+    400000: CHA_body_MESH
+    400002: CHA_head_MESH
+    400004: CHA_HIK_Ctrl_ChestEndEffector
+    400006: CHA_HIK_Ctrl_ChestOriginEffector
+    400008: CHA_HIK_Ctrl_Head
+    400010: CHA_HIK_Ctrl_HeadEffector
+    400012: CHA_HIK_Ctrl_Hips
+    400014: CHA_HIK_Ctrl_HipsEffector
+    400016: CHA_HIK_Ctrl_LeftAnkleEffector
+    400018: CHA_HIK_Ctrl_LeftArm
+    400020: CHA_HIK_Ctrl_LeftElbowEffector
+    400022: CHA_HIK_Ctrl_LeftFoot
+    400024: CHA_HIK_Ctrl_LeftForeArm
+    400026: CHA_HIK_Ctrl_LeftHand
+    400028: CHA_HIK_Ctrl_LeftHipEffector
+    400030: CHA_HIK_Ctrl_LeftKneeEffector
+    400032: CHA_HIK_Ctrl_LeftLeg
+    400034: CHA_HIK_Ctrl_LeftShoulder
+    400036: CHA_HIK_Ctrl_LeftShoulderEffector
+    400038: CHA_HIK_Ctrl_LeftUpLeg
+    400040: CHA_HIK_Ctrl_LeftWristEffector
+    400042: CHA_HIK_Ctrl_Reference
+    400044: CHA_HIK_Ctrl_RightAnkleEffector
+    400046: CHA_HIK_Ctrl_RightArm
+    400048: CHA_HIK_Ctrl_RightElbowEffector
+    400050: CHA_HIK_Ctrl_RightFoot
+    400052: CHA_HIK_Ctrl_RightForeArm
+    400054: CHA_HIK_Ctrl_RightHand
+    400056: CHA_HIK_Ctrl_RightHipEffector
+    400058: CHA_HIK_Ctrl_RightKneeEffector
+    400060: CHA_HIK_Ctrl_RightLeg
+    400062: CHA_HIK_Ctrl_RightShoulder
+    400064: CHA_HIK_Ctrl_RightShoulderEffector
+    400066: CHA_HIK_Ctrl_RightUpLeg
+    400068: CHA_HIK_Ctrl_RightWristEffector
+    400070: CHA_HIK_Ctrl_Spine
+    400072: CHA_HIK_Ctrl_Spine1
+    400074: CHA_HIK_Ctrl_Spine2
+    400076: CHA_HIK_Head
+    400078: CHA_HIK_Hips
+    400080: CHA_HIK_LeftArm
+    400082: CHA_HIK_LeftFoot
+    400084: CHA_HIK_LeftForeArm
+    400086: CHA_HIK_LeftHand
+    400088: CHA_HIK_LeftLeg
+    400090: CHA_HIK_LeftShoulder
+    400092: CHA_HIK_LeftUpLeg
+    400094: CHA_HIK_Reference
+    400096: CHA_HIK_RightArm
+    400098: CHA_HIK_RightFoot
+    400100: CHA_HIK_RightForeArm
+    400102: CHA_HIK_RightHand
+    400104: CHA_HIK_RightLeg
+    400106: CHA_HIK_RightShoulder
+    400108: CHA_HIK_RightUpLeg
+    400110: CHA_HIK_Spine
+    400112: CHA_HIK_Spine1
+    400114: CHA_HIK_Spine2
+    400116: CHA_MESH_GRP
+    400118: //RootNode
+    400120: VR_MESH
+    2300000: CHA_body_MESH
+    2300002: CHA_head_MESH
+    2300004: VR_MESH
+    3300000: CHA_body_MESH
+    3300002: CHA_head_MESH
+    3300004: VR_MESH
+    4300000: CHA_head_MESH
+    4300002: VR_MESH
+    4300004: CHA_body_MESH
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CHA_v00_CHA_MAT
+    second: {fileID: 2100000, guid: ff6c1c09a65e7e44a86251f59a197cc7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VR_MAT
+    second: {fileID: 2100000, guid: 658a30f0885d11341b363178fb6ee81e, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

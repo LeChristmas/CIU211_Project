@@ -1,0 +1,788 @@
+fileFormatVersion: 2
+guid: dfa4e78abbaf677479879ac7a21c940c
+timeCreated: 1524816008
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: _head_and_MASK_MESH_is_with_joints_
+    100002: bottom_MESH
+    100004: CHA_body_MESH
+    100006: CHA_head_MESH
+    100008: CHA_HIK_Ctrl_ChestEndEffector
+    100010: CHA_HIK_Ctrl_ChestOriginEffector
+    100012: CHA_HIK_Ctrl_Head
+    100014: CHA_HIK_Ctrl_HeadEffector
+    100016: CHA_HIK_Ctrl_Hips
+    100018: CHA_HIK_Ctrl_HipsEffector
+    100020: CHA_HIK_Ctrl_LeftAnkleEffector
+    100022: CHA_HIK_Ctrl_LeftArm
+    100024: CHA_HIK_Ctrl_LeftElbowEffector
+    100026: CHA_HIK_Ctrl_LeftFoot
+    100028: CHA_HIK_Ctrl_LeftForeArm
+    100030: CHA_HIK_Ctrl_LeftHand
+    100032: CHA_HIK_Ctrl_LeftHipEffector
+    100034: CHA_HIK_Ctrl_LeftKneeEffector
+    100036: CHA_HIK_Ctrl_LeftLeg
+    100038: CHA_HIK_Ctrl_LeftShoulder
+    100040: CHA_HIK_Ctrl_LeftShoulderEffector
+    100042: CHA_HIK_Ctrl_LeftUpLeg
+    100044: CHA_HIK_Ctrl_LeftWristEffector
+    100046: CHA_HIK_Ctrl_Reference
+    100048: CHA_HIK_Ctrl_RightAnkleEffector
+    100050: CHA_HIK_Ctrl_RightArm
+    100052: CHA_HIK_Ctrl_RightElbowEffector
+    100054: CHA_HIK_Ctrl_RightFoot
+    100056: CHA_HIK_Ctrl_RightForeArm
+    100058: CHA_HIK_Ctrl_RightHand
+    100060: CHA_HIK_Ctrl_RightHipEffector
+    100062: CHA_HIK_Ctrl_RightKneeEffector
+    100064: CHA_HIK_Ctrl_RightLeg
+    100066: CHA_HIK_Ctrl_RightShoulder
+    100068: CHA_HIK_Ctrl_RightShoulderEffector
+    100070: CHA_HIK_Ctrl_RightUpLeg
+    100072: CHA_HIK_Ctrl_RightWristEffector
+    100074: CHA_HIK_Ctrl_Spine
+    100076: CHA_HIK_Ctrl_Spine1
+    100078: CHA_HIK_Ctrl_Spine2
+    100080: CHA_HIK_Head
+    100082: CHA_HIK_Hips
+    100084: CHA_HIK_LeftArm
+    100086: CHA_HIK_LeftFoot
+    100088: CHA_HIK_LeftForeArm
+    100090: CHA_HIK_LeftHand
+    100092: CHA_HIK_LeftLeg
+    100094: CHA_HIK_LeftShoulder
+    100096: CHA_HIK_LeftUpLeg
+    100098: CHA_HIK_Reference
+    100100: CHA_HIK_RightArm
+    100102: CHA_HIK_RightFoot
+    100104: CHA_HIK_RightForeArm
+    100106: CHA_HIK_RightHand
+    100108: CHA_HIK_RightLeg
+    100110: CHA_HIK_RightShoulder
+    100112: CHA_HIK_RightUpLeg
+    100114: CHA_HIK_Spine
+    100116: CHA_HIK_Spine1
+    100118: CHA_HIK_Spine2
+    100120: CHA_MESH_GRP
+    100122: coat_MESH
+    100124: mask_MESH
+    100126: //RootNode
+    100128: sword_CTRL
+    100130: sword_ENDJNT
+    100132: sword_JNT
+    100134: sword_MESH
+    100136: sword_pos_hand_LOC
+    100138: sword_pos_hip_LOC
+    400000: _head_and_MASK_MESH_is_with_joints_
+    400002: bottom_MESH
+    400004: CHA_body_MESH
+    400006: CHA_head_MESH
+    400008: CHA_HIK_Ctrl_ChestEndEffector
+    400010: CHA_HIK_Ctrl_ChestOriginEffector
+    400012: CHA_HIK_Ctrl_Head
+    400014: CHA_HIK_Ctrl_HeadEffector
+    400016: CHA_HIK_Ctrl_Hips
+    400018: CHA_HIK_Ctrl_HipsEffector
+    400020: CHA_HIK_Ctrl_LeftAnkleEffector
+    400022: CHA_HIK_Ctrl_LeftArm
+    400024: CHA_HIK_Ctrl_LeftElbowEffector
+    400026: CHA_HIK_Ctrl_LeftFoot
+    400028: CHA_HIK_Ctrl_LeftForeArm
+    400030: CHA_HIK_Ctrl_LeftHand
+    400032: CHA_HIK_Ctrl_LeftHipEffector
+    400034: CHA_HIK_Ctrl_LeftKneeEffector
+    400036: CHA_HIK_Ctrl_LeftLeg
+    400038: CHA_HIK_Ctrl_LeftShoulder
+    400040: CHA_HIK_Ctrl_LeftShoulderEffector
+    400042: CHA_HIK_Ctrl_LeftUpLeg
+    400044: CHA_HIK_Ctrl_LeftWristEffector
+    400046: CHA_HIK_Ctrl_Reference
+    400048: CHA_HIK_Ctrl_RightAnkleEffector
+    400050: CHA_HIK_Ctrl_RightArm
+    400052: CHA_HIK_Ctrl_RightElbowEffector
+    400054: CHA_HIK_Ctrl_RightFoot
+    400056: CHA_HIK_Ctrl_RightForeArm
+    400058: CHA_HIK_Ctrl_RightHand
+    400060: CHA_HIK_Ctrl_RightHipEffector
+    400062: CHA_HIK_Ctrl_RightKneeEffector
+    400064: CHA_HIK_Ctrl_RightLeg
+    400066: CHA_HIK_Ctrl_RightShoulder
+    400068: CHA_HIK_Ctrl_RightShoulderEffector
+    400070: CHA_HIK_Ctrl_RightUpLeg
+    400072: CHA_HIK_Ctrl_RightWristEffector
+    400074: CHA_HIK_Ctrl_Spine
+    400076: CHA_HIK_Ctrl_Spine1
+    400078: CHA_HIK_Ctrl_Spine2
+    400080: CHA_HIK_Head
+    400082: CHA_HIK_Hips
+    400084: CHA_HIK_LeftArm
+    400086: CHA_HIK_LeftFoot
+    400088: CHA_HIK_LeftForeArm
+    400090: CHA_HIK_LeftHand
+    400092: CHA_HIK_LeftLeg
+    400094: CHA_HIK_LeftShoulder
+    400096: CHA_HIK_LeftUpLeg
+    400098: CHA_HIK_Reference
+    400100: CHA_HIK_RightArm
+    400102: CHA_HIK_RightFoot
+    400104: CHA_HIK_RightForeArm
+    400106: CHA_HIK_RightHand
+    400108: CHA_HIK_RightLeg
+    400110: CHA_HIK_RightShoulder
+    400112: CHA_HIK_RightUpLeg
+    400114: CHA_HIK_Spine
+    400116: CHA_HIK_Spine1
+    400118: CHA_HIK_Spine2
+    400120: CHA_MESH_GRP
+    400122: coat_MESH
+    400124: mask_MESH
+    400126: //RootNode
+    400128: sword_CTRL
+    400130: sword_ENDJNT
+    400132: sword_JNT
+    400134: sword_MESH
+    400136: sword_pos_hand_LOC
+    400138: sword_pos_hip_LOC
+    2300000: CHA_head_MESH
+    2300002: mask_MESH
+    2300004: sword_MESH
+    3300000: CHA_head_MESH
+    3300002: mask_MESH
+    3300004: sword_MESH
+    4300000: sword_MESH
+    4300002: CHA_head_MESH
+    4300004: mask_MESH
+    4300006: CHA_body_MESH
+    4300008: coat_MESH
+    4300010: bottom_MESH
+    7400000: Static
+    7400002: Idle_cross
+    7400004: walk_casual
+    9500000: //RootNode
+    13700000: bottom_MESH
+    13700002: CHA_body_MESH
+    13700004: coat_MESH
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BOOKLV_M_coat_MAT
+    second: {fileID: 2100000, guid: 39b5a619184b6b24fb6d1ea7c47ca7df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BOOKLV_M_mask_MAT
+    second: {fileID: 2100000, guid: f116a60975d4fcc4cb6860d40d47edce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BOOKLV_M_sword_MAT
+    second: {fileID: 2100000, guid: f116a60975d4fcc4cb6860d40d47edce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CHA_MAT
+    second: {fileID: 2100000, guid: af3b1f38657a90b47abdcb53976e8996, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Idle_cross' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'CHA_HIK_LeftLeg' has translation animation
+      that will be discarded.\n\t'CHA_HIK_RightLeg' has translation animation that
+      will be discarded.\n\t'CHA_HIK_RightForeArm' has translation animation that
+      will be discarded.\n\nClip 'walk_casual' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'CHA_HIK_LeftLeg' has translation animation
+      that will be discarded.\n\t'CHA_HIK_RightLeg' has translation animation that
+      will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: CHA_HIK_Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CHA_HIK_RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CHA_HIK_RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CHA_HIK_RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CHA_HIK_Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CHA_HIK_Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CHA_HIK_Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CHA_HIK_RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CHA_HIK_RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CHA_HIK_RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CHA_HIK_RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CHA_HIK_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mask_MESH
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CHA_HIK_LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CHA_HIK_LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CHA_HIK_LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CHA_HIK_LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CHA_HIK_LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CHA_HIK_LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CHA_HIK_LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: NPC1_CHA(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_Ctrl_Reference
+      parentName: NPC1_CHA(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_Ctrl_ChestEndEffector
+      parentName: CHA_HIK_Ctrl_Reference
+      position: {x: -0.00000007629395, y: 0.64082044, z: 0.000000002682209}
+      rotation: {x: 1.4163847e-16, y: 6.162976e-33, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_Ctrl_ChestOriginEffector
+      parentName: CHA_HIK_Ctrl_Reference
+      position: {x: -0.00000007629395, y: 0.3970259, z: 0.000000002682209}
+      rotation: {x: 1.4163847e-16, y: 6.162976e-33, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_Ctrl_HeadEffector
+      parentName: CHA_HIK_Ctrl_Reference
+      position: {x: -0.00000007629395, y: 0.6790625, z: 0.000000002682209}
+      rotation: {x: 1.4163847e-16, y: 6.162976e-33, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_Ctrl_Hips
+      parentName: CHA_HIK_Ctrl_Reference
+      position: {x: -0.00000007629395, y: 0.32551268, z: 0.000000002682209}
+      rotation: {x: 1.4163847e-16, y: 6.162976e-33, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_Ctrl_LeftUpLeg
+      parentName: CHA_HIK_Ctrl_Hips
+      position: {x: -0.08452531, y: -0.012764187, z: 0}
+      rotation: {x: -0.000023142944, y: 1.2414847e-11, z: -0.00000053644186, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_Ctrl_LeftLeg
+      parentName: CHA_HIK_Ctrl_LeftUpLeg
+      position: {x: -1.7763568e-17, y: -0.15943697, z: 0}
+      rotation: {x: -1.4163847e-16, y: 6.162976e-33, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_Ctrl_LeftFoot
+      parentName: CHA_HIK_Ctrl_LeftLeg
+      position: {x: -0, y: -0.15393883, z: 0}
+      rotation: {x: 0.00002314675, y: 1.2326921e-11, z: 0.0000005325645, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_Ctrl_RightUpLeg
+      parentName: CHA_HIK_Ctrl_Hips
+      position: {x: 0.08452531, y: -0.012764187, z: 0}
+      rotation: {x: -0.000009391076, y: 0.000000034477125, z: -0.00000059604645, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_Ctrl_RightLeg
+      parentName: CHA_HIK_Ctrl_RightUpLeg
+      position: {x: 1.7763568e-17, y: -0.15943697, z: 0}
+      rotation: {x: -0.00000016481772, y: -0.00000003447678, z: -0.000000043031978,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_Ctrl_RightFoot
+      parentName: CHA_HIK_Ctrl_RightLeg
+      position: {x: -0, y: -0.15393883, z: 0}
+      rotation: {x: 0.000009555895, y: 6.107058e-12, z: 0.00000063907646, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_Ctrl_Spine
+      parentName: CHA_HIK_Ctrl_Hips
+      position: {x: -0, y: 0.07151321, z: 0}
+      rotation: {x: 1.4163847e-16, y: 6.162976e-33, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_Ctrl_Spine1
+      parentName: CHA_HIK_Ctrl_Spine
+      position: {x: -0, y: 0.09173996, z: 0}
+      rotation: {x: 1.4163847e-16, y: 6.162976e-33, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_Ctrl_Spine2
+      parentName: CHA_HIK_Ctrl_Spine1
+      position: {x: -0, y: 0.09173996, z: 0}
+      rotation: {x: 1.4163847e-16, y: 6.162976e-33, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_Ctrl_Head
+      parentName: CHA_HIK_Ctrl_Spine2
+      position: {x: -0, y: 0.09855663, z: 0}
+      rotation: {x: 1.4163847e-16, y: 6.162976e-33, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_Ctrl_LeftShoulder
+      parentName: CHA_HIK_Ctrl_Spine2
+      position: {x: -0.028287148, y: 0.060314596, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_Ctrl_LeftArm
+      parentName: CHA_HIK_Ctrl_LeftShoulder
+      position: {x: -0.04585015, y: 0.0030104064, z: 0}
+      rotation: {x: -0.000000014901159, y: 0.0000001341104, z: 0.000000059604645,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_Ctrl_LeftForeArm
+      parentName: CHA_HIK_Ctrl_LeftArm
+      position: {x: -0.23552752, y: 0, z: 0}
+      rotation: {x: 0.000000014901154, y: -0.00000021840413, z: -0.00000005960465,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_Ctrl_LeftHand
+      parentName: CHA_HIK_Ctrl_LeftForeArm
+      position: {x: -0.11770102, y: 0, z: 0}
+      rotation: {x: -2.4892963e-33, y: 0.0000000842937, z: -5.1615003e-24, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_Ctrl_RightShoulder
+      parentName: CHA_HIK_Ctrl_Spine2
+      position: {x: 0.028287148, y: 0.060314596, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_Ctrl_RightArm
+      parentName: CHA_HIK_Ctrl_RightShoulder
+      position: {x: 0.04585015, y: 0.0030104064, z: 0}
+      rotation: {x: -2.6645355e-15, y: -0.000000044703484, z: -0.00000005960464, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_Ctrl_RightForeArm
+      parentName: CHA_HIK_Ctrl_RightArm
+      position: {x: 0.23552752, y: 0, z: 0}
+      rotation: {x: -0.000000052154068, y: 0.0000001289972, z: 0.000000059604645,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_Ctrl_RightHand
+      parentName: CHA_HIK_Ctrl_RightForeArm
+      position: {x: 0.11770102, y: 0, z: 0}
+      rotation: {x: 0.00000005960464, y: -0.0000000842937, z: 5.0242958e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_Ctrl_HipsEffector
+      parentName: CHA_HIK_Ctrl_Reference
+      position: {x: -0.00000007629395, y: 0.3127485, z: 0.000000002682209}
+      rotation: {x: 1.4163847e-16, y: 6.162976e-33, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_Ctrl_LeftAnkleEffector
+      parentName: CHA_HIK_Ctrl_Reference
+      position: {x: -0.08452572, y: -0.0006272888, z: 0.000014472589}
+      rotation: {x: 7.498799e-33, y: -0, z: -1.2246467e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_Ctrl_LeftElbowEffector
+      parentName: CHA_HIK_Ctrl_Reference
+      position: {x: -0.3096649, y: 0.64383084, z: 0.000000002682209}
+      rotation: {x: -2.4892963e-33, y: -0.0000000842937, z: 5.1615003e-24, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_Ctrl_LeftHipEffector
+      parentName: CHA_HIK_Ctrl_Reference
+      position: {x: -0.08452538, y: 0.3127485, z: 0.000000002682209}
+      rotation: {x: -0.000023142944, y: 1.2414847e-11, z: -0.00000053644186, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_Ctrl_LeftKneeEffector
+      parentName: CHA_HIK_Ctrl_Reference
+      position: {x: -0.084525555, y: 0.15331149, z: 0.0000073645715}
+      rotation: {x: -0.00002314675, y: 1.2327283e-11, z: -0.00000053256514, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_Ctrl_LeftShoulderEffector
+      parentName: CHA_HIK_Ctrl_Reference
+      position: {x: -0.074137375, y: 0.64383084, z: 0.000000002682209}
+      rotation: {x: -0.000000014901159, y: 0.0000001341104, z: 0.000000059604645,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_Ctrl_LeftWristEffector
+      parentName: CHA_HIK_Ctrl_Reference
+      position: {x: -0.4273659, y: 0.64383084, z: 0.000000002682209}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_Ctrl_RightAnkleEffector
+      parentName: CHA_HIK_Ctrl_Reference
+      position: {x: 0.08452483, y: -0.0006272888, z: 0.000005954498}
+      rotation: {x: 7.498799e-33, y: -0, z: -1.2246467e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_Ctrl_RightElbowEffector
+      parentName: CHA_HIK_Ctrl_Reference
+      position: {x: 0.3096647, y: 0.64383084, z: 0.000000002682209}
+      rotation: {x: -0.00000005960464, y: 0.0000000842937, z: 5.0242958e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_Ctrl_RightHipEffector
+      parentName: CHA_HIK_Ctrl_Reference
+      position: {x: 0.08452523, y: 0.3127485, z: 0.000000002682209}
+      rotation: {x: -0.000009391076, y: 0.000000034477125, z: -0.00000059604645, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_Ctrl_RightKneeEffector
+      parentName: CHA_HIK_Ctrl_Reference
+      position: {x: 0.084525034, y: 0.15331149, z: 0.0000030308017}
+      rotation: {x: -0.000009555895, y: 6.10692e-12, z: -0.0000006390781, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_Ctrl_RightShoulderEffector
+      parentName: CHA_HIK_Ctrl_Reference
+      position: {x: 0.074137226, y: 0.64383084, z: 0.000000002682209}
+      rotation: {x: -2.6645355e-15, y: -0.000000044703484, z: -0.00000005960464, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_Ctrl_RightWristEffector
+      parentName: CHA_HIK_Ctrl_Reference
+      position: {x: 0.42736578, y: 0.64383084, z: 0.000000002682209}
+      rotation: {x: -6.162976e-33, y: 6.1232336e-17, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_Reference
+      parentName: NPC1_CHA(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_Hips
+      parentName: CHA_HIK_Reference
+      position: {x: -0.00000007629395, y: 0.32551268, z: 0.000000002682209}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sword_pos_hip_LOC
+      parentName: CHA_HIK_Hips
+      position: {x: -0.1435955, y: 0.05247032, z: 0.0039149076}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_LeftUpLeg
+      parentName: CHA_HIK_Hips
+      position: {x: -0.08452531, y: -0.01276419, z: 0}
+      rotation: {x: -0.000023128327, y: 1.3096274e-11, z: -0.0000005662439, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_LeftLeg
+      parentName: CHA_HIK_LeftUpLeg
+      position: {x: 0.000000008899045, y: -0.159437, z: -0.00000002682438}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_LeftFoot
+      parentName: CHA_HIK_LeftLeg
+      position: {x: 0.00000001220921, y: -0.1539388, z: 0.000000001016393}
+      rotation: {x: 0.000023128327, y: 1.3096274e-11, z: 0.0000005662439, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_RightUpLeg
+      parentName: CHA_HIK_Hips
+      position: {x: 0.08452531, y: -0.01276419, z: 0}
+      rotation: {x: -0.000009398528, y: 5.6019633e-12, z: -0.00000059604685, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_RightLeg
+      parentName: CHA_HIK_RightUpLeg
+      position: {x: -0.0000000102078, y: -0.159437, z: 0.00000003117398}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_RightFoot
+      parentName: CHA_HIK_RightLeg
+      position: {x: -0.0000000167621, y: -0.1539388, z: 0.00000003009892}
+      rotation: {x: 0.000009398528, y: 5.6019633e-12, z: 0.00000059604685, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_Spine
+      parentName: CHA_HIK_Hips
+      position: {x: -0, y: 0.071513206, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_Spine1
+      parentName: CHA_HIK_Spine
+      position: {x: -0, y: 0.09173996, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_Spine2
+      parentName: CHA_HIK_Spine1
+      position: {x: -0, y: 0.09173996, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_LeftShoulder
+      parentName: CHA_HIK_Spine2
+      position: {x: -0.02828715, y: 0.06031464, z: 2.842171e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_LeftArm
+      parentName: CHA_HIK_LeftShoulder
+      position: {x: -0.045850147, y: 0.003010406, z: 1.058791e-24}
+      rotation: {x: 0, y: 0, z: 0.000006416546, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_LeftForeArm
+      parentName: CHA_HIK_LeftArm
+      position: {x: -0.23552749, y: 0.000002946252, z: 0.0000000631734}
+      rotation: {x: 0, y: -0, z: -0.00010908128, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_LeftHand
+      parentName: CHA_HIK_LeftForeArm
+      position: {x: -0.117700994, y: -0.00002416749, z: 0.00000003156987}
+      rotation: {x: 0, y: 0, z: 0.0008726502, w: 0.99999964}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_RightShoulder
+      parentName: CHA_HIK_Spine2
+      position: {x: 0.02828715, y: 0.06031464, z: 2.842171e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_RightArm
+      parentName: CHA_HIK_RightShoulder
+      position: {x: 0.045850147, y: 0.003010406, z: -2.842171e-16}
+      rotation: {x: 0, y: -0, z: -0.000020231517, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_RightForeArm
+      parentName: CHA_HIK_RightArm
+      position: {x: 0.23552749, y: 0.000009453864, z: 0.000000021057799}
+      rotation: {x: 0, y: 0, z: 0.00034393577, w: 0.99999994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_RightHand
+      parentName: CHA_HIK_RightForeArm
+      position: {x: 0.117700994, y: -0.00007620064, z: 0.00000001052329}
+      rotation: {x: 0, y: -0, z: -0.0027514829, w: 0.99999624}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sword_pos_hand_LOC
+      parentName: CHA_HIK_RightHand
+      position: {x: 0.074645154, y: 0.0027945708, z: 0.003914876}
+      rotation: {x: 0, y: 0, z: 0.0024277796, w: 0.9999971}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_HIK_Head
+      parentName: CHA_HIK_Spine2
+      position: {x: -0, y: 0.09855667, z: 2.842171e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_head_MESH
+      parentName: CHA_HIK_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mask_MESH
+      parentName: CHA_HIK_Head
+      position: {x: -0.00010183334, y: 0.5122357, z: 0.015343437}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_MESH_GRP
+      parentName: NPC1_CHA(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _head_and_MASK_MESH_is_with_joints_
+      parentName: CHA_MESH_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bottom_MESH
+      parentName: CHA_MESH_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHA_body_MESH
+      parentName: CHA_MESH_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: coat_MESH
+      parentName: CHA_MESH_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sword_CTRL
+      parentName: NPC1_CHA(Clone)
+      position: {x: 0.50202364, y: 0.6462628, z: 0.0039149104}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sword_JNT
+      parentName: sword_CTRL
+      position: {x: -0, y: 0, z: -5.9604643e-10}
+      rotation: {x: 0.7071068, y: 0.7071068, z: -8.7157646e-33, w: -8.659561e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sword_ENDJNT
+      parentName: sword_JNT
+      position: {x: -0.6525803, y: 1.4210854e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sword_MESH
+      parentName: sword_JNT
+      position: {x: -0.10754555, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

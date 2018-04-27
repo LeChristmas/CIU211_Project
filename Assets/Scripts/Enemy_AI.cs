@@ -8,7 +8,7 @@ public class Enemy_AI : MonoBehaviour
 
     public Transform linecast_target;
 
-    public Animator attack_arm;
+    //public Animator attack_arm;
 
     public float speed;
 
@@ -39,7 +39,7 @@ public class Enemy_AI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector3(transform.position.x, 1.0f, transform.position.z);
+        transform.position = new Vector3(transform.position.x, 1.25f, transform.position.z);
         distance = Vector3.Distance(transform.position, player.transform.position);
 
         if (distance < detection_distance && distance > 1.29f)
@@ -67,7 +67,6 @@ public class Enemy_AI : MonoBehaviour
         if (distance < 1.3f)
         {
             Debug.Log("Attacking");
-            attack_arm.SetTrigger("Attack"); 
             player.GetComponent<Player_Health>().Attacked(attack_damage);
         }
 

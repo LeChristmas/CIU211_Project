@@ -1,0 +1,257 @@
+fileFormatVersion: 2
+guid: caca49182ed13cd4b958b99af887e690
+timeCreated: 1524813279
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: AllDoors_MESH_GRP
+    100002: BallRo0m_REF_IMG
+    100004: BallRoom_ENV_MESH
+    100006: BallRoom_ENV_MESH_GRP
+    100008: //RootNode
+    100010: door1_MESH
+    100012: door1_MESH 1
+    100014: door1_MESH 2
+    100016: door1_MESH 3
+    100018: door1_MESH 4
+    100020: door1_MESH 5
+    100022: door1_MESH 6
+    100024: door1_MESH 7
+    100026: door2_MESH
+    100028: door2_MESH 1
+    100030: door2_MESH 2
+    100032: door2_MESH 3
+    100034: door2_MESH 4
+    100036: door2_MESH 5
+    100038: door2_MESH 6
+    100040: door2_MESH 7
+    100042: door_MESH_INT_GRP
+    100044: door_MESH_INT_GRP1
+    100046: door_MESH_INT_GRP2
+    100048: door_MESH_INT_GRP3
+    100050: door_MESH_INT_GRP4
+    100052: door_MESH_INT_GRP5
+    100054: door_MESH_INT_GRP6
+    100056: door_MESH_INT_GRP7
+    100058: DoorWay_MESH
+    100060: DoorWay_MESH 1
+    100062: DoorWay_MESH 2
+    100064: DoorWay_MESH 3
+    100066: DoorWay_MESH 4
+    100068: DoorWay_MESH 5
+    100070: DoorWay_MESH 6
+    100072: DoorWay_MESH 7
+    100074: FamilyRoom_ENV_MESH
+    100076: FamilyRoom_ENV_MESH_GRP
+    400000: AllDoors_MESH_GRP
+    400002: BallRo0m_REF_IMG
+    400004: BallRoom_ENV_MESH
+    400006: BallRoom_ENV_MESH_GRP
+    400008: //RootNode
+    400010: door1_MESH
+    400012: door1_MESH 1
+    400014: door1_MESH 2
+    400016: door1_MESH 3
+    400018: door1_MESH 4
+    400020: door1_MESH 5
+    400022: door1_MESH 6
+    400024: door1_MESH 7
+    400026: door2_MESH
+    400028: door2_MESH 1
+    400030: door2_MESH 2
+    400032: door2_MESH 3
+    400034: door2_MESH 4
+    400036: door2_MESH 5
+    400038: door2_MESH 6
+    400040: door2_MESH 7
+    400042: door_MESH_INT_GRP
+    400044: door_MESH_INT_GRP1
+    400046: door_MESH_INT_GRP2
+    400048: door_MESH_INT_GRP3
+    400050: door_MESH_INT_GRP4
+    400052: door_MESH_INT_GRP5
+    400054: door_MESH_INT_GRP6
+    400056: door_MESH_INT_GRP7
+    400058: DoorWay_MESH
+    400060: DoorWay_MESH 1
+    400062: DoorWay_MESH 2
+    400064: DoorWay_MESH 3
+    400066: DoorWay_MESH 4
+    400068: DoorWay_MESH 5
+    400070: DoorWay_MESH 6
+    400072: DoorWay_MESH 7
+    400074: FamilyRoom_ENV_MESH
+    400076: FamilyRoom_ENV_MESH_GRP
+    2300000: BallRoom_ENV_MESH
+    2300002: door1_MESH
+    2300004: door1_MESH 1
+    2300006: door1_MESH 2
+    2300008: door1_MESH 3
+    2300010: door1_MESH 4
+    2300012: door1_MESH 5
+    2300014: door1_MESH 6
+    2300016: door1_MESH 7
+    2300018: door2_MESH
+    2300020: door2_MESH 1
+    2300022: door2_MESH 2
+    2300024: door2_MESH 3
+    2300026: door2_MESH 4
+    2300028: door2_MESH 5
+    2300030: door2_MESH 6
+    2300032: door2_MESH 7
+    2300034: DoorWay_MESH
+    2300036: DoorWay_MESH 1
+    2300038: DoorWay_MESH 2
+    2300040: DoorWay_MESH 3
+    2300042: DoorWay_MESH 4
+    2300044: DoorWay_MESH 5
+    2300046: DoorWay_MESH 6
+    2300048: DoorWay_MESH 7
+    2300050: FamilyRoom_ENV_MESH
+    3300000: BallRoom_ENV_MESH
+    3300002: door1_MESH
+    3300004: door1_MESH 1
+    3300006: door1_MESH 2
+    3300008: door1_MESH 3
+    3300010: door1_MESH 4
+    3300012: door1_MESH 5
+    3300014: door1_MESH 6
+    3300016: door1_MESH 7
+    3300018: door2_MESH
+    3300020: door2_MESH 1
+    3300022: door2_MESH 2
+    3300024: door2_MESH 3
+    3300026: door2_MESH 4
+    3300028: door2_MESH 5
+    3300030: door2_MESH 6
+    3300032: door2_MESH 7
+    3300034: DoorWay_MESH
+    3300036: DoorWay_MESH 1
+    3300038: DoorWay_MESH 2
+    3300040: DoorWay_MESH 3
+    3300042: DoorWay_MESH 4
+    3300044: DoorWay_MESH 5
+    3300046: DoorWay_MESH 6
+    3300048: DoorWay_MESH 7
+    3300050: FamilyRoom_ENV_MESH
+    4300000: BallRoom_ENV_MESH
+    4300002: DoorWay_MESH
+    4300004: door1_MESH
+    4300006: door2_MESH
+    4300008: DoorWay_MESH
+    4300010: door1_MESH
+    4300012: door2_MESH
+    4300014: DoorWay_MESH
+    4300016: door1_MESH
+    4300018: door2_MESH
+    4300020: DoorWay_MESH
+    4300022: door1_MESH
+    4300024: door2_MESH
+    4300026: DoorWay_MESH
+    4300028: door1_MESH
+    4300030: door2_MESH
+    4300032: DoorWay_MESH
+    4300034: door1_MESH
+    4300036: door2_MESH
+    4300038: DoorWay_MESH
+    4300040: door1_MESH
+    4300042: door2_MESH
+    4300044: DoorWay_MESH
+    4300046: door1_MESH
+    4300048: door2_MESH
+    4300050: FamilyRoom_ENV_MESH
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: f96c4cc1b7955904e8bcff81323b85a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: 4a1400f46d042524e9ea16663634a78e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert3
+    second: {fileID: 2100000, guid: 05f7c1cd409b63e478127087d92d06b7, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,335 @@
+fileFormatVersion: 2
+guid: a224f4686798f174aa53f8a25557bf31
+timeCreated: 1524813279
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: _head_MESH_is_with_joints_
+    100002: //RootNode
+    100004: CHA_body_MESH
+    100006: CHA_head_MESH
+    100008: CHA_HIK_Ctrl_ChestEndEffector
+    100010: CHA_HIK_Ctrl_ChestOriginEffector
+    100012: CHA_HIK_Ctrl_Head
+    100014: CHA_HIK_Ctrl_HeadEffector
+    100016: CHA_HIK_Ctrl_Hips
+    100018: CHA_HIK_Ctrl_HipsEffector
+    100020: CHA_HIK_Ctrl_LeftAnkleEffector
+    100022: CHA_HIK_Ctrl_LeftArm
+    100024: CHA_HIK_Ctrl_LeftElbowEffector
+    100026: CHA_HIK_Ctrl_LeftFoot
+    100028: CHA_HIK_Ctrl_LeftForeArm
+    100030: CHA_HIK_Ctrl_LeftHand
+    100032: CHA_HIK_Ctrl_LeftHipEffector
+    100034: CHA_HIK_Ctrl_LeftKneeEffector
+    100036: CHA_HIK_Ctrl_LeftLeg
+    100038: CHA_HIK_Ctrl_LeftShoulder
+    100040: CHA_HIK_Ctrl_LeftShoulderEffector
+    100042: CHA_HIK_Ctrl_LeftUpLeg
+    100044: CHA_HIK_Ctrl_LeftWristEffector
+    100046: CHA_HIK_Ctrl_Reference
+    100048: CHA_HIK_Ctrl_RightAnkleEffector
+    100050: CHA_HIK_Ctrl_RightArm
+    100052: CHA_HIK_Ctrl_RightElbowEffector
+    100054: CHA_HIK_Ctrl_RightFoot
+    100056: CHA_HIK_Ctrl_RightForeArm
+    100058: CHA_HIK_Ctrl_RightHand
+    100060: CHA_HIK_Ctrl_RightHipEffector
+    100062: CHA_HIK_Ctrl_RightKneeEffector
+    100064: CHA_HIK_Ctrl_RightLeg
+    100066: CHA_HIK_Ctrl_RightShoulder
+    100068: CHA_HIK_Ctrl_RightShoulderEffector
+    100070: CHA_HIK_Ctrl_RightUpLeg
+    100072: CHA_HIK_Ctrl_RightWristEffector
+    100074: CHA_HIK_Ctrl_Spine
+    100076: CHA_HIK_Ctrl_Spine1
+    100078: CHA_HIK_Ctrl_Spine2
+    100080: CHA_HIK_Head
+    100082: CHA_HIK_Hips
+    100084: CHA_HIK_LeftArm
+    100086: CHA_HIK_LeftFoot
+    100088: CHA_HIK_LeftForeArm
+    100090: CHA_HIK_LeftHand
+    100092: CHA_HIK_LeftLeg
+    100094: CHA_HIK_LeftShoulder
+    100096: CHA_HIK_LeftUpLeg
+    100098: CHA_HIK_Reference
+    100100: CHA_HIK_RightArm
+    100102: CHA_HIK_RightFoot
+    100104: CHA_HIK_RightForeArm
+    100106: CHA_HIK_RightHand
+    100108: CHA_HIK_RightLeg
+    100110: CHA_HIK_RightShoulder
+    100112: CHA_HIK_RightUpLeg
+    100114: CHA_HIK_Spine
+    100116: CHA_HIK_Spine1
+    100118: CHA_HIK_Spine2
+    100120: CHA_MESH_GRP
+    100122: CHA_ruler
+    100124: F_BOOK_CHA_M_MODSHET
+    100126: group
+    100128: MODSHET_GRP
+    100130: pasted__pCube1
+    100132: pCube1
+    100134: pCube2
+    100136: pSphere1
+    100138: pSphere2
+    100140: pSphere3
+    100142: pSphere4
+    100144: pSphere5
+    100146: pSphere6
+    100148: pSphere7
+    100150: pSphere8
+    100152: S_BOOK_CHA_M_MODSHET1
+    100154: transform1
+    100156: transform2
+    100158: transform3
+    100160: transform4
+    100162: transform5
+    100164: transform6
+    100166: transform7
+    100168: transform8
+    400000: _head_MESH_is_with_joints_
+    400002: //RootNode
+    400004: CHA_body_MESH
+    400006: CHA_head_MESH
+    400008: CHA_HIK_Ctrl_ChestEndEffector
+    400010: CHA_HIK_Ctrl_ChestOriginEffector
+    400012: CHA_HIK_Ctrl_Head
+    400014: CHA_HIK_Ctrl_HeadEffector
+    400016: CHA_HIK_Ctrl_Hips
+    400018: CHA_HIK_Ctrl_HipsEffector
+    400020: CHA_HIK_Ctrl_LeftAnkleEffector
+    400022: CHA_HIK_Ctrl_LeftArm
+    400024: CHA_HIK_Ctrl_LeftElbowEffector
+    400026: CHA_HIK_Ctrl_LeftFoot
+    400028: CHA_HIK_Ctrl_LeftForeArm
+    400030: CHA_HIK_Ctrl_LeftHand
+    400032: CHA_HIK_Ctrl_LeftHipEffector
+    400034: CHA_HIK_Ctrl_LeftKneeEffector
+    400036: CHA_HIK_Ctrl_LeftLeg
+    400038: CHA_HIK_Ctrl_LeftShoulder
+    400040: CHA_HIK_Ctrl_LeftShoulderEffector
+    400042: CHA_HIK_Ctrl_LeftUpLeg
+    400044: CHA_HIK_Ctrl_LeftWristEffector
+    400046: CHA_HIK_Ctrl_Reference
+    400048: CHA_HIK_Ctrl_RightAnkleEffector
+    400050: CHA_HIK_Ctrl_RightArm
+    400052: CHA_HIK_Ctrl_RightElbowEffector
+    400054: CHA_HIK_Ctrl_RightFoot
+    400056: CHA_HIK_Ctrl_RightForeArm
+    400058: CHA_HIK_Ctrl_RightHand
+    400060: CHA_HIK_Ctrl_RightHipEffector
+    400062: CHA_HIK_Ctrl_RightKneeEffector
+    400064: CHA_HIK_Ctrl_RightLeg
+    400066: CHA_HIK_Ctrl_RightShoulder
+    400068: CHA_HIK_Ctrl_RightShoulderEffector
+    400070: CHA_HIK_Ctrl_RightUpLeg
+    400072: CHA_HIK_Ctrl_RightWristEffector
+    400074: CHA_HIK_Ctrl_Spine
+    400076: CHA_HIK_Ctrl_Spine1
+    400078: CHA_HIK_Ctrl_Spine2
+    400080: CHA_HIK_Head
+    400082: CHA_HIK_Hips
+    400084: CHA_HIK_LeftArm
+    400086: CHA_HIK_LeftFoot
+    400088: CHA_HIK_LeftForeArm
+    400090: CHA_HIK_LeftHand
+    400092: CHA_HIK_LeftLeg
+    400094: CHA_HIK_LeftShoulder
+    400096: CHA_HIK_LeftUpLeg
+    400098: CHA_HIK_Reference
+    400100: CHA_HIK_RightArm
+    400102: CHA_HIK_RightFoot
+    400104: CHA_HIK_RightForeArm
+    400106: CHA_HIK_RightHand
+    400108: CHA_HIK_RightLeg
+    400110: CHA_HIK_RightShoulder
+    400112: CHA_HIK_RightUpLeg
+    400114: CHA_HIK_Spine
+    400116: CHA_HIK_Spine1
+    400118: CHA_HIK_Spine2
+    400120: CHA_MESH_GRP
+    400122: CHA_ruler
+    400124: F_BOOK_CHA_M_MODSHET
+    400126: group
+    400128: MODSHET_GRP
+    400130: pasted__pCube1
+    400132: pCube1
+    400134: pCube2
+    400136: pSphere1
+    400138: pSphere2
+    400140: pSphere3
+    400142: pSphere4
+    400144: pSphere5
+    400146: pSphere6
+    400148: pSphere7
+    400150: pSphere8
+    400152: S_BOOK_CHA_M_MODSHET1
+    400154: transform1
+    400156: transform2
+    400158: transform3
+    400160: transform4
+    400162: transform5
+    400164: transform6
+    400166: transform7
+    400168: transform8
+    2300000: CHA_ruler
+    2300002: pasted__pCube1
+    3300000: CHA_ruler
+    3300002: pasted__pCube1
+    4300000: CHA_ruler
+    4300002: CHA_body_MESH
+    4300004: CHA_head_MESH
+    4300006: pCube1
+    4300008: pCube2
+    4300010: pasted__pCube1
+    9500000: //RootNode
+    13700000: CHA_body_MESH
+    13700002: CHA_head_MESH
+    13700004: pCube1
+    13700006: pCube2
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn2
+    second: {fileID: 2100000, guid: ac3c396467c032b4692f0e99660901eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn3
+    second: {fileID: 2100000, guid: 30d1cbdcfce87df4c9de5fe74dd977a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn4
+    second: {fileID: 2100000, guid: 06d22896070d7044e860044571fe62e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn5
+    second: {fileID: 2100000, guid: c98a97edae4f88b4dba6d57e9a8a4510, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn6
+    second: {fileID: 2100000, guid: 9d2cad7aeeb5a2e4c9483d1484eb06d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn7
+    second: {fileID: 2100000, guid: 531abe56bb9e17d46b2e3844ebae1a40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn8
+    second: {fileID: 2100000, guid: 41e5d300887224440abd0c9bfe4cd4a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: f96c4cc1b7955904e8bcff81323b85a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert4
+    second: {fileID: 2100000, guid: 21670800c395a7e40a18ceb6d266361f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert5
+    second: {fileID: 2100000, guid: 1bba163604ac0794e8fcbbb7d796dc5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert6
+    second: {fileID: 2100000, guid: e8ce5883a805bce468cfe2857cb137c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert8
+    second: {fileID: 2100000, guid: 74190b6a0b8781f41ace38f7b1875bf4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert9
+    second: {fileID: 2100000, guid: b31a9d19f525dd847b9f27d0fb5d26e5, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
