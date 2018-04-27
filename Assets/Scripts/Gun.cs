@@ -9,6 +9,8 @@ public class Gun : MonoBehaviour
 
     public GameObject gun;
 
+    public Transform gun_pickup;
+
     public GameObject pickup_text;
 
     public GameObject reload_text;
@@ -42,23 +44,22 @@ public class Gun : MonoBehaviour
     {
         if (!isactive)
         {
-            ray = Camera.main.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
-            if (Physics.Raycast(ray, out hit, 10))
-            {
-                if (hit.transform.gameObject.tag == "gun")
-                {
-                    pickup_text.SetActive(true);
-                    if(Input.GetKeyDown(KeyCode.E))
-                    {
-                        Pickup();
-                        Destroy(hit.transform.gameObject);
-                    }
-                }
-                else
-                {
-                    pickup_text.SetActive(false);
-                }
+            float distance = Vector3.Distance(transform.position, gun_pickup.position);
+            Debug.Log(distance);
 
+            if(distance < 2.0f)
+            {
+                pickup_text.SetActive(true);
+
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    Pickup();
+                    Destroy(gun_pickup.gameObject);
+                }
+            }
+            else
+            {
+                pickup_text.SetActive(false);
             }
         }
 
