@@ -80,7 +80,7 @@ GameObject:
   - component: {fileID: 54609153015672344}
   - component: {fileID: 114549584560304792}
   m_Layer: 0
-  m_Name: Cube (10)
+  m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -824,3 +824,14 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  gun_status:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  all_collectibles: {fileID: 0}

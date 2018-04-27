@@ -14,7 +14,9 @@ public class Collectibles : MonoBehaviour
     private Ray ray;
     private RaycastHit hit;
 
-    private int collectible_number = 0;
+    public bool gunactive;
+
+    public int collectible_number = 0;
 
     // Update is called once per frame
     void Update()

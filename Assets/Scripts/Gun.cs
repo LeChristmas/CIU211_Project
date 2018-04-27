@@ -132,6 +132,7 @@ public class Gun : MonoBehaviour
     void Pickup ()
     {
         isactive = true;
+        GameObject.FindGameObjectWithTag("Player").GetComponent<Collectibles>().gunactive = true;
         ammunition_text.enabled = true;
         gun.SetActive(true);
         pickup_text.SetActive(false);

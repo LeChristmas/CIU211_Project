@@ -10,17 +10,24 @@ public class Win_State : MonoBehaviour
 
     public GameObject[] win_UI;
 
+    public GameObject[] gun_status;
+
+    public GameObject all_collectibles;
+
     private bool win;
 
     private GameObject player;
 
     private Collectibles collectible;
 
+    public bool isgunactive;
+    public bool allcollectibles;
+
     private int enemies_eliminated;
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Fire2"))
+        if (Input.GetButtonDown("Fire2") && win)
         {
             SceneManager.LoadScene(scene);
         }
@@ -37,6 +44,13 @@ public class Win_State : MonoBehaviour
             win_UI[2].GetComponent<Image>().color = collectible.collectible_icons[1].color;
             win_UI[3].GetComponent<Image>().color = collectible.collectible_icons[2].color;
             win_UI[4].GetComponent<Image>().color = collectible.collectible_icons[3].color;
+
+            isgunactive = collectible.gunactive;
+            if (collectible.collectible_number == 4)
+            {
+                allcollectibles = true;
+            }
+
             Win();
         }
     }
@@ -49,6 +63,32 @@ public class Win_State : MonoBehaviour
             for (int i = 0; i < win_UI.Length; i++)
             {
                 win_UI[i].SetActive(true);
+            }
+
+            if(allcollectibles)
+            {
+                all_collectibles.SetActive(true);
+            }
+
+            if(isgunactive && collectible.enemies_killed > 0)
+            {
+                Debug.Log("Gun, Kills");
+                gun_status[0].SetActive(true);
+            }
+            else if(isgunactive && collectible.enemies_killed <= 0)
+            {
+                Debug.Log("Gun, No Kills");
+                gun_status[1].SetActive(true);
+            }
+            else if(!isgunactive && collectible.enemies_killed > 0)
+            {
+                Debug.Log("Gun, No Kills");
+                gun_status[3].SetActive(true);
+            }
+            else
+            {
+                Debug.Log("No Gun, No Kills");
+                gun_status[2].SetActive(true);
             }
         }
     }

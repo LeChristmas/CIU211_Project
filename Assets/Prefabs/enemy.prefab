@@ -37,7 +37,7 @@ GameObject:
   - component: {fileID: 33258935248419822}
   - component: {fileID: 135847127409648890}
   - component: {fileID: 23018682592625424}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Right_Eye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -162,7 +162,7 @@ GameObject:
   - component: {fileID: 33341175786360976}
   - component: {fileID: 135853713597328378}
   - component: {fileID: 23099096396239468}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Left_Eye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -255,7 +255,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1751761644741962}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8, y: 10, z: -3}
+  m_LocalPosition: {x: -1.2240047, y: 1.25, z: 17.86035}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4071433764059938}
