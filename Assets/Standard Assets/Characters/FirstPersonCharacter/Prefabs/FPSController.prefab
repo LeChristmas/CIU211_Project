@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8200000}
   - component: {fileID: 114428540686592662}
   - component: {fileID: 114857506364512128}
+  - component: {fileID: 114537474366544926}
   m_Layer: 0
   m_Name: FPSController
   m_TagString: Player
@@ -78,8 +79,8 @@ Camera:
   m_GameObject: {fileID: 100002}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.184, g: 0.128, b: 0, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -144,7 +145,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 193
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -220,9 +221,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_IsWalking: 0
   m_WalkSpeed: 5
-  m_RunSpeed: 10
+  m_RunSpeed: 5
   m_RunstepLenghten: 0.7
-  m_JumpSpeed: 10
+  m_JumpSpeed: 0
   m_StickToGroundForce: 10
   m_GravityMultiplier: 2
   m_MouseLook:
@@ -741,11 +742,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 38d86f276585abb48a3e70d6269ee99f, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -847,6 +848,32 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   scene: Main_Scene
+--- !u!114 &114537474366544926
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5a253bef8c72ac48b0fd083bfb2d17a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ispaused: 0
+  pause_UI:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  removing_UI:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  levelname: Title
 --- !u!114 &114589903888310182
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -885,3 +912,6 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   pickup_text: {fileID: 0}
+  enemies_killed: 0
+  gunactive: 0
+  collectible_number: 0
